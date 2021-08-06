@@ -2,7 +2,7 @@
 Made the ability to parse a string of hosts easier.
 #### Key Features:
 * **Easy**: Designed with simplicity in mind. Uses modern design principle making the code DRY and Extensible.
-* **Great Developer Experience**: Being fully typed makes it great for editor support. Want to make your own Action Runner workflow? Just combine or inherit from the pre built components to match your use case.
+* **Great Developer Experience**: Being fully typed makes it great for editor support.
 * **There is More!!!**:
     * [host_reader](https://github.com/tybruno/hosts_reader): retreive a list of host from a file or string.
     * [commands_reader](https://github.com/tybruno/commands_reader): retreive a list of commands from a file or string.
