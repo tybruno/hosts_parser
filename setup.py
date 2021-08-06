@@ -11,13 +11,13 @@ with open("requirements.txt", "r") as file:
     INSTALL_REQUIRES = file.read().splitlines()
 
 setuptools.setup(
-    name="hosts_parsers",
+    name="hosts_parser",
     version=__version__,
     author=__author__,
     long_description=README,
     long_description_content_type="text/markdown",
     keywords="python file files text excel",
-    url="https://github.com/tybruno/hosts_parsers",
+    url="https://github.com/tybruno/hosts_parser",
     license="MIT",
     package_data={"hosts_parser": ["py.typed"]},
     packages=setuptools.find_packages(),
