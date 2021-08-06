@@ -8,7 +8,7 @@ Made the ability to parse a string of hosts easier.
     * [commands_reader](https://github.com/tybruno/commands_reader): retreive a list of commands from a file or string.
     * [parser](https://github.com/tybruno/parsers): Generic Parsers and Abstract classes. This project extends parsers.
 ## Installation
-`pip install "git+git@github.com:tybruno/hosts_parser.git#egg=hosts_parser`
+`pip install "git+https://github.com/tybruno/hosts_parser.git#egg=hosts_parser`
 ## Usage
 ### Example 1
 ```python
@@ -36,5 +36,5 @@ parse_hosts = HostsParser()
 
 hosts = parse_hosts(hosts_str)
 
-print(list(hosts)) # ['host1', 'host2', 'host3']
+print(tuple(hosts)) # ('host1', 'host2', 'host3')
 ```
